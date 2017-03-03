@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Shared", "Demo.Shared\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientServer4Net.Serialization.CompressedJson.Tests", "ClientServer4Net.Serialization.CompressedJson.Tests\ClientServer4Net.Serialization.CompressedJson.Tests.csproj", "{498B820C-03F3-4B18-B4DF-E14590F2B2B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{FB2C76BB-F420-4A49-A591-94FC44593428}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{290435DC-A759-4E36-9703-AFE1C3FF5894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37684487-F945-4749-9F7E-220A1914607A} = {FB2C76BB-F420-4A49-A591-94FC44593428}
+		{2BBAB56F-EB12-4BB1-BFAF-AB0DCC7B9866} = {FB2C76BB-F420-4A49-A591-94FC44593428}
+		{85CFDD60-69FE-4972-9B7C-61DBD2ADAB6A} = {FB2C76BB-F420-4A49-A591-94FC44593428}
+		{498B820C-03F3-4B18-B4DF-E14590F2B2B9} = {290435DC-A759-4E36-9703-AFE1C3FF5894}
 	EndGlobalSection
 EndGlobal
